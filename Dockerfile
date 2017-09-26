@@ -4,7 +4,7 @@ MAINTAINER Dirk Ehrenschwender <dirk.ehrenschwender@me.com>
 # Setup useful environment variables
 ENV JIRA_HOME     /var/atlassian/jira
 ENV JIRA_INSTALL  /opt/atlassian/jira
-ENV JIRA_VERSION  7.5.0
+ENV JIRA_VERSION  7.3.2
 
 LABEL Description="This image is used to start Atlassian JIRA" Vendor="Atlassian" Version="${JIRA_VERSION}"
 
