@@ -21,6 +21,7 @@ RUN set -x \
     && apt-get update \
     && apt-get install --yes apt-utils nano curl libtcnative-1 xmlstarlet \
     && apt-get clean \
+    && groupadd psacln \
     && mkdir -p                           "${JIRA_HOME}" \
     && mkdir -p                           "${JIRA_HOME}/caches/indexes" \
     && chmod -R 700                       "${JIRA_HOME}" \
